@@ -25,13 +25,17 @@ This dataset contains crime records for Los Angeles from 2010 to the present:
 
 - **LA Police Stations**  
   Contains the geographical locations of all 21 police stations in Los Angeles.  
-   [Download Dataset](https://data.lacity.org/Public-Safety/LAPD-Police-Stations/ktsx-r7cm)
+   [LA Police Stations Dataset](https://geohub.lacity.org/datasets/lahub::lapd-police-stations/explore)
 
 - **Median Household Income by ZIP Code (Los Angeles County)**  
   Provides income data by ZIP code based on census reports from 2015, 2017, 2019, and 2021. For this project, only the 2015 dataset was used.  
-  [Download 2015 Data](https://data.census.gov/table?q=Income&g=050XX00US06037)
+  [2015 Income Data](https://www.laalmanac.com/employment/em12c_2015.php)
 
 - **Reverse Geocoding Dataset**  
-  Used to map latitude/longitude coordinates to ZIP codes in the LA area.  
-  [Download Dataset](http://www.dblab.ece.ntua.gr/files/classes/data.tar.gz)
+  This dataset was provided by the instructors of the course and is used to map geographic coordinates (latitude and longitude) to ZIP codes within the Los Angeles area.  
+  It contains the following columns:
+
+  - `LAT`: Latitude  
+  - `LON`: Longitude  
+  - `ZIPcode`: Corresponding ZIP code
 
